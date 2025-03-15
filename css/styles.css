@@ -21,11 +21,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.header-logo-blue {
-  color: #4d5ae5;
+.header-logo-accent {
+  color: #2e2f42;
 }
 
 .header-nav-link {
@@ -42,16 +42,19 @@ a {
 }
 
 .header-address {
+  font-style: normal;
+}
+
+.header-addres-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
-.header-address:hover,
-.header-address:focus {
+.header-addres-info:hover,
+.header-addres-info:focus {
   color: #404bbf;
 }
 /*....... HEADER....... */
@@ -109,8 +112,13 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+
+.team-item {
+  background-color: #fff;
 }
 
 .team-subtitle {
@@ -120,14 +128,12 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background-color: #fff;
 }
 
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: #fff;
 }
 /*....... TEAM....... */
 
@@ -136,6 +142,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -146,6 +153,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*....... PORTFOLIO....... */
 
@@ -160,11 +172,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.footer-logo-blue {
-  color: #4d5ae5;
+.footer-logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
